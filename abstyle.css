@@ -594,7 +594,7 @@ form textarea{
     .nav-list a.active{
         color: var(--text-color);
     }
-    .nav-list.open{
+    .nav-list.show{
         top: 100%;
     }
  }
