@@ -598,3 +598,7 @@ form textarea{
         top: 100%;
     }
  }
+
+ .nav-list.show {
+    display: block;
+}
