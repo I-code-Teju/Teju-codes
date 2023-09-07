@@ -1,6 +1,6 @@
+const toggler = document.getElementById('menu-icon');
+const navList = document.querySelector('.nav-list');
 
-const toggler = document.querySelector(‘.toggleBtn’)
-toggler.addEventListener(‘click’, ()=>{
- const dropDown= document.querySelector(‘.dropDown’)
-dropDown.classList.toggle(‘show’)
-})
+toggler.addEventListener('click', () => {
+    navList.classList.toggle('show');
+});
